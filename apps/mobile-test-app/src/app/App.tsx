@@ -12,7 +12,7 @@ const App = () => {
       contentContainerStyle={{ gap:10, padding: 20 , justifyContent: 'center', alignItems: 'center'}}
     >
       <StatusBar barStyle="dark-content" />
-      <Text id="header" style={styles.text}>Hello My First App</Text>
+      <Text testID="header" style={styles.text}>Hello My First App</Text>
       <Image
         source={{ uri: 'https://picsum.photos/300' }}
         style={{ width: 300, height: 300 }}

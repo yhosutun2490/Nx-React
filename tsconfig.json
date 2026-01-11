@@ -2,5 +2,21 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/react-practice-e2e"
+    },
+    {
+      "path": "./apps/react-practice"
+    },
+    {
+      "path": "./mobile-test-app"
+    },
+    {
+      "path": "./apps"
+    },
+    {
+      "path": "./apps/mobile-test-app"
+    }
+  ]
 }
